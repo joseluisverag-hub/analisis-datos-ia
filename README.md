@@ -13,3 +13,11 @@ Construir un proyecto práctico y publicable en GitHub que demuestre capacidades
 - `data/`: datasets
 - `notebooks/`: notebooks del análisis
 - `src/`: scripts o app
+
+## Entregables automatizados
+
+Este proyecto incluye generación automática de:
+- reporte ejecutivo en PDF
+- presentación ejecutiva en PowerPoint
+
+El flujo toma métricas y hallazgos desde el notebook, exporta un payload JSON y genera entregables listos para stakeholders no técnicos.

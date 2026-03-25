@@ -1,0 +1,22 @@
+
+Actúa como analista de datos senior.
+
+Necesito convertir los siguientes hallazgos de un análisis del Titanic en un resumen ejecutivo claro, profesional y breve.
+
+Hallazgos:
+- Supervivencia general: La mayoría de los pasajeros no sobrevivió; la tasa general de supervivencia fue menor al 50%.
+- Sexo: Las mujeres tuvieron una tasa de supervivencia considerablemente más alta que los hombres.
+- Clase: Los pasajeros de primera clase presentaron mejores tasas de supervivencia que los de segunda y tercera clase.
+- Sexo + Clase: Las mujeres de primera clase tuvieron la tasa más alta, mientras que los hombres de tercera clase presentaron la más baja.
+- Edad: Los niños muestran mejores tasas de supervivencia que otros grupos etarios, mientras que los adultos mayores presentan las más bajas.
+- Tamaño de familia: Los grupos familiares pequeños o medianos muestran mejores tasas que quienes viajaban solos o en familias muy grandes.
+
+Instrucciones:
+- Escribe en español.
+- Usa tono ejecutivo y claro.
+- No inventes datos nuevos.
+- Resume en máximo 200 palabras.
+- Entrega:
+  1. Resumen ejecutivo
+  2. 3 hallazgos clave
+  3. 2 recomendaciones analíticas para un siguiente paso

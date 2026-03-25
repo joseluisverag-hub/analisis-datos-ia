@@ -1,0 +1,48 @@
+{
+  "report": {
+    "title": "Titanic: reporte ejecutivo automatizado",
+    "subtitle": "Análisis de datos con Python + IA aplicada",
+    "objective": "Identificar qué variables estuvieron más asociadas a la supervivencia y generar un entregable ejecutivo automático desde el notebook.",
+    "executive_summary": "La tasa general de supervivencia fue 38,4%, por lo que la mayoría de los pasajeros no sobrevivió. El sexo y la clase del pasajero aparecen como los factores más asociados a la supervivencia: las mujeres alcanzaron 74,2% frente a 18,9% en hombres, y la primera clase superó ampliamente a la tercera. La edad y el tamaño de la familia también aportan capacidad explicativa: los niños mostraron mejores resultados que los adultos mayores, y los grupos familiares pequeños o medianos superaron a quienes viajaban solos o en familias muy grandes.",
+    "key_findings": [
+      "Sexo: mujeres 74,2% vs hombres 18,9%.",
+      "Clase: 1ra clase 63,0% vs 3ra clase 24,2%.",
+      "Combinación crítica: mujeres de 1ra clase 96,8%; hombres de 3ra clase 13,5%.",
+      "Edad: niños 58,0%; adultos mayores 22,7%.",
+      "Tamaño de familia: solo 30,4%; familia de 4: 72,4%."
+    ],
+    "executive_findings": [
+      "Sexo y clase son las variables más asociadas a la supervivencia.",
+      "Edad y tamaño de familia mejoran la explicación del fenómeno.",
+      "Este flujo puede automatizar métricas, gráficos y entregables ejecutivos desde Python."
+    ],
+    "recommendations": [
+      "Usar Sex, Pclass, Age y tamano_familia como variables base en un modelo predictivo.",
+      "Mantener un pipeline reproducible que genere métricas, gráficos y entregables ejecutivos desde Python.",
+      "Agregar una app Streamlit para consumo interactivo de usuarios no técnicos."
+    ],
+    "next_step_note": "Siguiente paso sugerido: Streamlit + modelo predictivo."
+  },
+  "metrics": {
+    "tasa_supervivencia_general": 0.383838,
+    "supervivencia_mujeres": 0.742038,
+    "supervivencia_hombres": 0.188908,
+    "supervivencia_1ra": 0.62963,
+    "supervivencia_2da": 0.472826,
+    "supervivencia_3ra": 0.242363,
+    "mujer_1ra": 0.968085,
+    "mujer_2da": 0.921053,
+    "mujer_3ra": 0.5,
+    "hombre_1ra": 0.368852,
+    "hombre_2da": 0.157407,
+    "hombre_3ra": 0.135447,
+    "ninos": 0.57971,
+    "adolescentes": 0.428571,
+    "adultos": 0.4,
+    "adultos_mayores": 0.227273,
+    "familia_1": 0.303538,
+    "familia_2": 0.552795,
+    "familia_3": 0.578431,
+    "familia_4": 0.724138
+  }
+}

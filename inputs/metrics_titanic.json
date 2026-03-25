@@ -1,0 +1,47 @@
+{
+  "report_title": "Titanic: reporte ejecutivo automatizado v2",
+  "report_subtitle": "Análisis de datos con Python + IA aplicada",
+  "objective": "Identificar qué variables estuvieron más asociadas a la supervivencia y demostrar un flujo automatizado de generación de entregables ejecutivos.",
+  "general": {
+    "survival_rate": 0.383838
+  },
+  "survival_by_sex": {
+    "female": 0.742038,
+    "male": 0.188908
+  },
+  "survival_by_class": {
+    "1": 0.62963,
+    "2": 0.472826,
+    "3": 0.242363
+  },
+  "survival_by_sex_class": {
+    "female_1": 0.968085,
+    "female_2": 0.921053,
+    "female_3": 0.5,
+    "male_1": 0.368852,
+    "male_2": 0.157407,
+    "male_3": 0.135447
+  },
+  "survival_by_age_group": {
+    "child": 0.57971,
+    "adolescent": 0.428571,
+    "adult": 0.4,
+    "older_adult": 0.227273
+  },
+  "survival_by_family_size": {
+    "1": 0.303538,
+    "2": 0.552795,
+    "3": 0.578431,
+    "4": 0.724138
+  },
+  "executive_conclusions": [
+    "Sexo y clase son las variables más asociadas a la supervivencia.",
+    "Edad y tamaño de familia mejoran la explicación del fenómeno.",
+    "El flujo puede reutilizarse para otros análisis cambiando solo inputs y gráficos."
+  ],
+  "recommendations": [
+    "Usar Sex, Pclass, Age y tamaño de familia como variables base en un modelo predictivo.",
+    "Mantener un pipeline reproducible que genere métricas, gráficos y entregables ejecutivos desde Python.",
+    "Agregar una app Streamlit para consumo interactivo de usuarios no técnicos."
+  ]
+}
